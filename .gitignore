@@ -1,0 +1,30 @@
+# Case data is real people's lives. It never goes in version control (§12.1).
+cases/*
+!cases/.gitkeep
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Resumable transcription checkpoints: raw speech, written next to the output.
+*.partial.jsonl
+
+# Editor and OS clutter.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test audio is public domain but large; fetch it with the commands in samples/README.md.
+samples/zh/*.mp3
+samples/zh/*.wiki
+samples/zh/results.txt
+samples/zh/transcript_*.txt
+samples/zh/_current_*.txt
+samples/zh/runner.err
+samples/zh/demo_output.txt
+samples/zh/DONE

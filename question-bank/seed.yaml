@@ -1,0 +1,415 @@
+# Seed question bank (spec v2 §17).
+#
+# This file is the starting point. Its value comes from what gets written back
+# into it: `asked` and `scenes` are populated from real cases by
+# `lifestory bank`, and after fifty projects the yield rates here are the thing
+# a competitor cannot copy.
+#
+#   lifestory ask <case> "<question>" --bank-id q-childhood-first-place
+#   lifestory tag <case> q_xxxx scene --card sc_xxxx
+#   lifestory bank          # fold outcomes back into this file
+#   lifestory yield         # performance across all cases
+#
+# mode: standard | assisted | both
+# A question marked `assisted` is concrete and sensory enough to work when
+# open-ended recall has gone (§12.3).
+
+questions:
+- id: q-open-kitchen-smell
+  text: What did your kitchen smell like?
+  zh: 小时候家里的灶台是什么样的？现在闻到什么味道，会让您想起那时候？
+  topic: childhood
+  mode: both
+  note: Reliable opener. Smell reaches memory more directly than dates do.
+  asked: 0
+  scenes: 0
+- id: q-open-sunday
+  text: What did you do on a Sunday?
+  zh: 小时候过年是什么样子的？年夜饭吃什么？
+  topic: childhood
+  mode: both
+  asked: 0
+  scenes: 0
+- id: q-open-best-cook
+  text: Who was the best cook in your family?
+  zh: 家里谁做饭最好吃？拿手菜是什么？
+  topic: family
+  mode: both
+  note: Almost always produces a person plus a scene around a table.
+  asked: 0
+  scenes: 0
+- id: q-open-first-money
+  text: What is the first thing you ever bought with your own money?
+  zh: 您第一次拿到自己挣的钱，买了什么？
+  topic: work
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-childhood-first-place
+  text: What is the first place you can still picture clearly?
+  zh: 您小时候住的地方，现在闭上眼睛还能看见的，是什么？
+  topic: childhood
+  mode: standard
+  note: The workhorse. Follow the first concrete noun they give you.
+  asked: 0
+  scenes: 0
+- id: q-childhood-sleeping
+  text: Who else was in the house? Where did everybody sleep?
+  zh: 那时候家里住了几口人？晚上都怎么睡？
+  topic: childhood
+  mode: both
+  note: Sleeping arrangements reconstruct a whole household quickly.
+  asked: 0
+  scenes: 0
+- id: q-childhood-rule
+  text: What was the rule in your house that you didn't dare break?
+  zh: 家里有什么规矩，是您小时候绝对不敢违反的？
+  topic: childhood
+  mode: standard
+  note: Strong yield. Gets at authority and family character in one answer.
+  asked: 0
+  scenes: 0
+- id: q-childhood-forbidden-place
+  text: Was there somewhere you were not allowed to go?
+  zh: 小时候有没有哪里，是大人不让您去的？
+  topic: childhood
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-childhood-rain
+  text: What did you do when it rained?
+  zh: 下雨天、冬天，你们小孩都玩些什么？
+  topic: childhood
+  mode: both
+  asked: 0
+  scenes: 0
+- id: q-family-most-like
+  text: Who were you most like, growing up?
+  zh: 您觉得自己最像家里的谁？
+  topic: family
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-family-difficult-one
+  text: Who was the difficult one in the family?
+  zh: 家里谁的脾气最不好相处？
+  topic: family
+  mode: standard
+  note: Handle the answer carefully if the person is living.
+  asked: 0
+  scenes: 0
+- id: q-family-mother-angry
+  text: What did your mother do when she was angry?
+  zh: 您母亲生气的时候，会怎么样？
+  topic: family
+  mode: standard
+  note: Specific behaviour beats character description every time.
+  asked: 0
+  scenes: 0
+- id: q-family-disagreement
+  text: Tell me about a time the family disagreed about something.
+  zh: 家里有没有为了什么事闹过意见？
+  topic: family
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-family-not-talked-about
+  text: Was there anyone the family didn't talk about?
+  zh: 家里有没有哪个人，是大家不太提起的？
+  topic: family
+  mode: standard
+  note: 'Near private territory. Ask once, gently, take the first answer. If a door opens, follow it;
+    if not, leave it and do not return. Anything disclosed here is §12.2 material by default.
+
+    '
+  asked: 0
+  scenes: 0
+- id: q-work-first-job
+  text: What was the first job you were paid for? What did it pay?
+  zh: 您第一份活是什么？拿工分还是拿工资？一个月挣多少？
+  topic: work
+  mode: both
+  asked: 0
+  scenes: 0
+- id: q-work-who-taught
+  text: Who taught you how to do it?
+  zh: 是谁教您干这个的？
+  topic: work
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-work-day-went-wrong
+  text: Tell me about a day at that job that went wrong.
+  zh: 干那份活的时候，有没有哪天出了岔子？
+  topic: work
+  mode: standard
+  note: High scene rate. "Went wrong" gives permission for conflict.
+  asked: 0
+  scenes: 0
+- id: q-work-frightened-of
+  text: Was there someone there you were frightened of?
+  zh: 单位里有没有您特别怕的人？
+  topic: work
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-work-knew-you-were-good
+  text: When did you know you were good at it?
+  zh: 您什么时候觉得，自己把这份活干好了？
+  topic: work
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-turn-bravest
+  text: What is the bravest thing you ever did?
+  zh: 您这辈子做过的最大胆的一件事是什么？
+  topic: turning_point
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-turn-went-against
+  text: Was there a time you went against what someone wanted for you?
+  zh: 有没有哪一次，您没有按家里给您安排的路走？
+  topic: turning_point
+  mode: standard
+  note: 'The single strongest question in the bank so far. Produces the setup/conflict/choice/consequence
+    shape almost unprompted.
+
+    '
+  asked: 0
+  scenes: 0
+- id: q-turn-thought-about-since
+  text: What is a decision you have thought about since?
+  zh: 有没有什么决定，到现在您还会想起来？
+  topic: turning_point
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-turn-certain-and-wrong
+  text: Tell me about a time you were certain and wrong.
+  zh: 有没有哪件事，您当时很有把握，后来发现想错了？
+  topic: turning_point
+  mode: standard
+  note: Only after trust is established. Too exposing in session one.
+  asked: 0
+  scenes: 0
+- id: q-turn-things-changed
+  text: Was there a moment you knew things had changed?
+  zh: 有没有哪一刻，您知道日子要变了？
+  topic: turning_point
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-love-first-saw
+  text: Where did you first see them?
+  zh: 第一次见到老伴是在哪儿？
+  topic: partnership
+  mode: both
+  note: Concrete and located. Works far better than "how did you meet".
+  asked: 0
+  scenes: 0
+- id: q-love-first-thought
+  text: What did you think of them at first?
+  zh: 您当时觉得他（她）怎么样？
+  topic: partnership
+  mode: standard
+  note: Frequently produces a wry answer that is very much their voice.
+  asked: 0
+  scenes: 0
+- id: q-love-family-made-of-them
+  text: What did your family make of them?
+  zh: 家里人当时觉得他（她）怎么样？
+  topic: partnership
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-love-nobody-watching
+  text: What were they like when nobody else was watching?
+  zh: 他（她）私底下是个什么样的人？
+  topic: partnership
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-love-argued-about
+  text: What did you argue about?
+  zh: 你们为什么事拌过嘴？
+  topic: partnership
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-obj-run-back-for
+  text: Is there an object you would run back into the house for?
+  zh: 如果家里着火，有什么东西您一定会冲回去拿？
+  topic: objects
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-obj-street-looked-like
+  text: What did your street look like then?
+  zh: 您小时候住的那条街，那时候是什么样子？
+  topic: places
+  mode: both
+  asked: 0
+  scenes: 0
+- id: q-obj-smell-takes-you-back
+  text: Is there a smell that takes you straight back?
+  zh: 有没有什么味道，一闻到就让您想起从前？
+  topic: objects
+  mode: both
+  asked: 0
+  scenes: 0
+- id: q-obj-gone-now
+  text: What is gone now that you miss?
+  zh: 有没有什么东西，现在没有了，您很怀念？
+  topic: places
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-assist-who-is-this
+  text: Is this your mother?
+  zh: 这是您母亲吗？
+  topic: photo_elicitation
+  mode: assisted
+  note: 'Closed question first, then open. A yes/no is answerable when recall is not, and answering it
+    successfully opens the next one.
+
+    '
+  asked: 0
+  scenes: 0
+- id: q-assist-where-taken
+  text: Do you know where this was taken?
+  zh: 这张照片是在哪儿拍的？
+  topic: photo_elicitation
+  mode: assisted
+  asked: 0
+  scenes: 0
+- id: q-assist-what-happened-that-day
+  text: What happened that day?
+  zh: 那天发生了什么？
+  topic: photo_elicitation
+  mode: assisted
+  note: Ask only after a photograph is already in their hands.
+  asked: 0
+  scenes: 0
+- id: q-assist-bicycle
+  text: Did you have a bicycle?
+  zh: 您小时候有自行车吗？
+  topic: childhood
+  mode: assisted
+  asked: 0
+  scenes: 0
+- id: q-assist-keep-warm
+  text: How did you keep warm?
+  zh: 那时候冬天怎么取暖？
+  topic: childhood
+  mode: assisted
+  asked: 0
+  scenes: 0
+- id: q-assist-show-me-hands
+  text: Could you show me how that was done?
+  zh: 您能比划一下，那个活是怎么干的吗？
+  topic: work
+  mode: assisted
+  note: 'Procedural memory often survives episodic memory. Asking someone to show you with their hands
+    can unlock a narrative nothing else reaches.
+
+    '
+  asked: 0
+  scenes: 0
+- id: q-assist-song
+  text: Was there a song everyone knew?
+  zh: 有没有一首歌，那时候大家都会唱？
+  topic: culture
+  mode: assisted
+  note: Music is among the last things to go. Sometimes they will sing it.
+  asked: 0
+  scenes: 0
+- id: q-late-wish-known-at-twenty
+  text: What do you know now that you wish you had known at twenty?
+  zh: 如果回到二十岁，您最想告诉自己什么？
+  topic: reflection
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-late-grandchildren-understand
+  text: What would you want your grandchildren to understand about you?
+  zh: 您最希望孙辈们了解您的什么？
+  topic: reflection
+  mode: both
+  note: Good closer. Families often quote the answer back for years.
+  asked: 0
+  scenes: 0
+- id: q-late-never-told-anybody
+  text: Is there anything you have never told anybody?
+  zh: 有没有什么事，您从来没跟别人说过？
+  topic: reflection
+  mode: standard
+  note: 'Ask once, near the end of a later session, then be quiet. Whatever comes back defaults to restricted
+    under §12.2 and stays with them unless they personally release it. Do not follow up. Do not ask again
+    in a later session.
+
+    '
+  asked: 0
+  scenes: 0
+- id: q-close-should-have-asked
+  text: Is there anything I should have asked about today?
+  zh: 今天还有什么是我该问、却没问到的？
+  topic: closing
+  mode: both
+  note: Run this every session. It regularly surfaces the best material.
+  asked: 0
+  scenes: 0
+- id: q-close-next-time
+  text: What should we talk about next time?
+  zh: 下次我们聊点什么？
+  topic: closing
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-zh-how-met
+  text: Did you meet your spouse yourselves, or were you introduced?
+  zh: 您和老伴是怎么认识的？是别人介绍的，还是自己认识的？
+  topic: partnership
+  mode: standard
+  note: 'Ask where they first met even if the answer is 介绍的: an arranged first meeting is often the most
+    vivid scene in the book.'
+  asked: 0
+  scenes: 0
+- id: q-zh-ration-coupons
+  text: Do you remember using grain and cloth coupons? How much did you get?
+  zh: 您还记得用粮票、布票的时候吗？一个月能领多少？
+  topic: era
+  mode: both
+  note: A door, not a checklist item. Let them decide whether to walk through it.
+  asked: 0
+  scenes: 0
+- id: q-zh-first-big-purchase
+  text: What was the family's first big purchase -- a bicycle, a sewing machine, a watch, a radio?
+  zh: 家里第一件“大件”是什么？自行车、缝纫机、手表，还是收音机？是怎么买到的？
+  topic: era
+  mode: both
+  note: 'High scene rate: nearly always a story about saving, queuing, or a favour.'
+  asked: 0
+  scenes: 0
+- id: q-zh-wedding-gifts
+  text: What were the dowry and betrothal gifts when you married?
+  zh: 你们那时候结婚，嫁妆和彩礼是什么？
+  topic: partnership
+  mode: standard
+  asked: 0
+  scenes: 0
+- id: q-zh-countryside
+  text: Did anyone in your generation go down to the countryside? Where?
+  zh: 您那一辈有没有人下过乡？在哪儿？
+  topic: era
+  mode: standard
+  note: Let them lead. Anything about who did what to whom is restricted by default (§12.2).
+  asked: 0
+  scenes: 0
+- id: q-zh-first-train
+  text: Where did you go the first time you took a train?
+  zh: 您第一次坐火车，是去哪儿？
+  topic: places
+  mode: both
+  asked: 0
+  scenes: 0
