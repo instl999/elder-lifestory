@@ -1,5 +1,15 @@
 # LifeStory — 第 0 阶段操作员工具包
 
+<!-- repository-catalog:start -->
+**分类：学习、研究与知识记录** · [同类仓库](https://github.com/instl999?tab=repositories&q=topic%3Aknowledge-tools)
+
+为长辈制作回忆录的工作台：本地转写、出处记录、授权核对与书稿导出。
+
+相关项目：[ai-growth-intelligence](https://github.com/instl999/ai-growth-intelligence) · [exam-scribe](https://github.com/instl999/exam-scribe)
+
+[English](README.md)
+<!-- repository-catalog:end -->
+
 [English](README.md) | 简体中文
 
 这是一套手工交付回忆录项目的工具，依据 LifeStory 产品规格说明 v2 构建。代码和文档里的章节编号（§）都指向这份规格说明；规格说明本身不在本仓库中。

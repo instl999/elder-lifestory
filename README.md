@@ -1,5 +1,15 @@
 # LifeStory — Phase 0 operator kit
 
+<!-- repository-catalog:start -->
+**Category: Learning, research and knowledge** · [Repositories in this category](https://github.com/instl999?tab=repositories&q=topic%3Aknowledge-tools)
+
+A memoir workbench for older adults with local transcription, sourced records, consent review and manuscript export.
+
+Related projects: [ai-growth-intelligence](https://github.com/instl999/ai-growth-intelligence) · [exam-scribe](https://github.com/instl999/exam-scribe)
+
+[简体中文](README.zh-CN.md)
+<!-- repository-catalog:end -->
+
 English | [简体中文](README.zh-CN.md)
 
 Tooling for delivering memoir cases by hand, built to the LifeStory product
